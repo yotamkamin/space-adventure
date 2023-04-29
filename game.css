@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./img/Artboard\ 1.png');
+  background-size: auto;
+}
+.txt {
+  background-image: url('./img/backr2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 57.9rem;
+  visibility: visible;
+  /* width: 50rem; */
+
+  /* text-align: start; */
+  font-family: 'ccbiffbamboom', sans-serif;
+}
+
+button {
+  display: inline-block;
+  position: relative;
+  top: 52rem;
+  left: 50%;
+  width: 10rem;
+  height: 2rem;
+}
+
+#canvas1 {
+  /* border: 0.5rem solid black; */
+  /* visibility: hidden; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  visibility: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  /* font-family: 'Orbitron', sans-serif; */
+  font-family: 'ccbiffbamboom', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#player,
+#enemy1,
+#enemy2,
+#special,
+#hive,
+#rocks,
+#projectile,
+#particle,
+#smokeExplosion,
+#fireExplosion {
+  display: none;
+}
